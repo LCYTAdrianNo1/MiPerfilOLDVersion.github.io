@@ -1,0 +1,18 @@
+.instagram-feed-container {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.instagram-feed-item {
+  display: inline-block;
+  width: 200px; /* ajusta este valor al tamaño que quieras para tus publicaciones */
+  margin-right: 50px; /* ajusta este valor al espacio que quieras dejar entre cada publicación */
+}
+
+@media (max-width: 768px) {
+  .instagram-feed-item {
+    width: 200px;
+    margin-right: 10px;
+  }
+}
